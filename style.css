@@ -1,0 +1,91 @@
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.hero-img{
+    width: 100%;
+}
+.hero-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-div > img{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.para-container{
+    width: 35%;
+    text-align: center;
+}
+.text-lg{
+    font-size: 30px;
+}
+.text-mg{
+    font-size: 20px;
+}
+
+.text-blue{
+    color: rgb(241, 7, 202);
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#about{
+    display: flex;
+    justify-content: center;
+}
+#contact{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.text-md > a{
+color: rgb(4, 16, 189);
+}
+.victory-img{
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: o 2px 4px black;
+    transition: 0.2s ease-in-out;
+}
+.victory-img:hover{
+    transform: translateY(10PX);
+}
+#victory{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+#Todo{
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+footer{
+    text-align: center;
+    padding: 4px;
+    width: 100%;
+    margin-top: 60px;
+}
